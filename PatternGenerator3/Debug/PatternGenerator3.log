@@ -1,0 +1,20 @@
+﻿Build started 17-Apr-16 9:08:42 PM.
+     1>Project "C:\Users\Justin\Documents\Nottingham Studies\Year 3\FYP\PatternGenerator3\PatternGenerator3\PatternGenerator3.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (PatternGenerator3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\justin\documents\nottingham studies\year 3\fyp\patterngenerator3\patterngenerator3\source.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\justin\documents\nottingham studies\year 3\fyp\patterngenerator3\patterngenerator3\source.cpp(182): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\justin\documents\nottingham studies\year 3\fyp\patterngenerator3\patterngenerator3\source.cpp(337): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\justin\documents\nottingham studies\year 3\fyp\patterngenerator3\patterngenerator3\source.cpp(642): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\justin\documents\nottingham studies\year 3\fyp\patterngenerator3\patterngenerator3\source.cpp(651): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\justin\documents\nottingham studies\year 3\fyp\patterngenerator3\patterngenerator3\source.cpp(616): warning C4101: 'tempInt' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Justin\Documents\Nottingham Studies\Year 3\FYP\PatternGenerator3\Debug\Week Generator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Justin\Documents\Nottingham Studies\Year 3\FYP\PatternGenerator3\Debug\Week Generator.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Justin\Documents\Nottingham Studies\Year 3\FYP\PatternGenerator3\Debug\Week Generator.lib" /MACHINE:X86 Debug\Source.obj
+         PatternGenerator3.vcxproj -> C:\Users\Justin\Documents\Nottingham Studies\Year 3\FYP\PatternGenerator3\Debug\Week Generator.exe
+     1>Done Building Project "C:\Users\Justin\Documents\Nottingham Studies\Year 3\FYP\PatternGenerator3\PatternGenerator3\PatternGenerator3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.88
